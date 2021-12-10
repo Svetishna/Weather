@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Oswald&display=swap');
+body,h1,h2,h3,h4,h5,h6,div,p,div,ul{
+	padding:0;
+	margin:0;
+}
+body{
+    background-color: #E9F5FA;
+    width:1440px;
+}
+.weather{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width:1310px;
+    height:700px;
+}
+.weather__item{
+    width:175.23px;
+}
+.weekday, 
+.number{
+    font-family: Krona One;
+    text-align: center;
+    color: #4DB0D3;
+}
+.weekday{
+    font-size: 24px;
+    letter-spacing: 0.2em;
+}
+.number{
+    font-size: 73.31px;
+}
+.details{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 11px 4px 34px rgba(32, 77, 92, 0.7);
+    border-radius: 50px;
+    width: 164.79px;
+    margin:auto;
+    position: relative;
+    padding:250px 0 25px 0;
+    margin-top: 15px;
+}
+.cloud{
+    left: -26px;
+    top: 77px;
+    position: absolute;
+} 
+.sun{
+    left: -20px;
+    top: 5px;
+    position: absolute;
+} 
+.stormy{
+    left: -20px;
+    top: 30px;
+    position: absolute;
+}
+.snowy{
+    left: -25px;
+    top: 5px;
+    position: absolute;
+}
+.rain{
+    left: 30px;
+    top: -15px;
+    position: absolute;
+}
+.partly-cloud{
+    left: -15px;
+    top: 15px;
+    position: absolute;
+}
+.details__temperature{
+    font-family: Oswald;
+    font-size: 110px;
+    line-height: 163px;
+    text-align: center;
+    position: relative;
+}
+.degrees{
+    position: absolute;
+    font-size: 3rem;
+    top: -40px;
+}
+.content{
+    text-align: center;
+    margin-top: 27px;
+    font-family: Krona One;
+}
+.icon {
+    fill: currentColor;
+    height: 32px;
+    width: 32px;
+    position: relative;
+    top: 10px;
+} 
+.precipitation {
+    margin-bottom: 10px;
+} 
+.low .icon {
+    left: -3px;
+}
+.blue{
+    background: #4DB0D3;
+}
+.blue-t{
+    color: #4DB0D3;
+}
+.yellow{
+    background: #E6DF95;
+}
+.yellow-t{
+    color:#E6DF95
+}
+.light-blue-t{
+    color: #D3EBF4;
+}
+.dark-blue-t{
+    color: #247490;
+}
+.dark{
+    background: #0E2E3A;
+}
+.light-blue{
+    background: #BCE1EF;
+}
+.black{
+    color: #0E2E3A;
+}
+.dark-blue{
+    background: #2B8BAD;
+}
